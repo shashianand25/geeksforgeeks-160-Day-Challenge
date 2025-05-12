@@ -1,13 +1,26 @@
-Trying to learn DSA from geeksgorgeeks 160 Days Challenge!! I am learning concepts before solving questions, let's see how this goes🤞.
+Trying to learn DSA from GeeksforGeeks' 160 Days Challenge!!  
+I am learning concepts before solving questions — let's see how this goes 🤞
 
-Day1 - Second Largest in Array
-Had to learn vectors before I started solving because the code snippet had vector defined in it. (took around 15-20 minutes)
-first solution was by sorting the array but that was O(n^2) time so switched to one loop and solved it after thinking for a while
+---
 
-Day2 - Push zeroes to end
-Again tried to solve by using vector functions I learnt on Day1 like .erase and .pushback but kept getting runtime error and even if I did solve it, time complexity was huge
-So switched to doing it in one loop itself but without those functions
+### 📅 Day 1 – Second Largest in Array
 
-Day3 - Reverse an array
-Classic question but again never solved before so I solved in two loops at first using temp_arr
-Later switched to one loop (had to change one condn inside the loop)
+📚 Had to learn vectors before I started solving because the code snippet had `vector` defined in it.  
+⏱️ Took around 15–20 minutes.  
+🧠 First solution was by sorting the array but that was O(n²), so I switched to one loop and solved it after thinking for a while.
+
+---
+
+### 📅 Day 2 – Push Zeroes to End
+
+🔁 Tried using vector functions I learned on Day 1 like `.erase` and `.push_back`, but kept getting runtime errors.  
+⚠️ Even when it worked, the time complexity was high.  
+✅ Finally solved it using just one loop, without those vector functions.
+
+---
+
+### 📅 Day 3 – Reverse an Array
+
+❓ Classic question but I had never solved it before.  
+🧪 Initially solved it with two loops using a `temp_arr`.  
+⚙️ Later optimized it to one loop (had to tweak a condition inside the loop).
