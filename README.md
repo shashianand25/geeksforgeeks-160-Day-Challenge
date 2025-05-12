@@ -23,4 +23,7 @@ I am learning concepts before solving questions — let's see how this goes 🤞
 
 ❓ Classic question but I had never solved it before.  
 🧪 Initially solved it with two loops using a `temp_arr`.  
-⚙️ Later optimized it to one loop (had to tweak a condition inside the loop).
+⚙️ Later optimized it to one loop (had to tweak a condition inside the loop).  
+
+
+---
