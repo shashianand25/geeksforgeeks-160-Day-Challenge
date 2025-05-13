@@ -27,3 +27,9 @@ I am learning concepts before solving questions — let's see how this goes 🤞
 
 
 ---
+
+### 📅 Day 4 – Left Rotate an Array
+
+❌ First tried solving with nested `for` loops — worked, but failed on large test cases due to too many swaps.  
+💡 Then realized after one full rotation, the array returns to original — so I optimized using `rotations % size`.  
+⚡ Final solution reduced time complexity to O(n).
