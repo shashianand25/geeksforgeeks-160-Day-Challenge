@@ -25,7 +25,6 @@ I am learning concepts before solving questions — let's see how this goes 🤞
 🧪 Initially solved it with two loops using a `temp_arr`.  
 ⚙️ Later optimized it to one loop (had to tweak a condition inside the loop).  
 
-
 ---
 
 ### 📅 Day 4 – Left Rotate an Array
@@ -33,3 +32,24 @@ I am learning concepts before solving questions — let's see how this goes 🤞
 ❌ First tried solving with nested `for` loops — worked, but failed on large test cases due to too many swaps.  
 💡 Then realized after one full rotation, the array returns to original — so I optimized using `rotations % size`.  
 ⚡ Final solution reduced time complexity to O(n).
+
+### 📅 Day 5 – Next Permutation
+
+📖 Learned about *lexicographical order* (like a dictionary).  
+🔍 Started checking from the back to find the pivot, swapped with next greater, then sorted the rest.
+
+---
+
+### 📅 Day 6 – Majority Element
+
+🧪 Passed 1111/1113 test cases but hit Time Limit Exceeded.  
+🌀 Tried sorting — it worked but was O(n log n).  
+✅ Finally learned and used Boyer-Moore Voting Algorithm — O(n) time, O(1) space.
+
+---
+
+### 📅 Day 7 – Stock Buy and Sell
+
+😰 Looked tough at first, but turned out to be a 2-line greedy solution.  
+⚠️ Example was just to confuse — keep buying low, selling high.
+
